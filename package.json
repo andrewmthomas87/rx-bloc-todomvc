@@ -1,0 +1,24 @@
+{
+	"scripts": {
+		"build:dev": "./node_modules/.bin/webpack --config webpack/dev.config.js --display-error-details --progress --color",
+		"build:prod": "./node_modules/.bin/webpack --config webpack/prod.config.js --display-error-details --progress --color",
+		"watch": "./node_modules/.bin/webpack --config webpack/dev.config.js --display-error-details --progress --color --watch"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.5",
+		"@types/react-dom": "^16.9.1",
+		"ts-loader": "^6.2.0",
+		"typescript": "^3.6.4",
+		"webpack": "^4.41.1",
+		"webpack-cli": "^3.3.9"
+	},
+	"dependencies": {
+		"director": "^1.2.8",
+		"react": "^16.10.2",
+		"react-dom": "^16.10.2",
+		"rx-bloc": "git+https://github.com/andrewmthomas87/rx-bloc.git",
+		"rxjs": "^6.5.3",
+		"todomvc-app-css": "^2.3.0",
+		"todomvc-common": "^1.0.5"
+	}
+}
